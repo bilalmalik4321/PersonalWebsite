@@ -41,17 +41,17 @@ class App extends Component{
           <AboutMe />
         </a>
       </div>
-      <div div="Projects" className="App-header">
+      {/* <div div="Projects" className="App-header">
         <a id="App-Projects">
           <WorkExperience />
         </a>
-      </div>
-      <div div="Projects" className="App-body">
+      </div> */}
+      <div div="Projects" className="App-header">
         <a id="App-Projects">
           <Projects />
         </a>
       </div>
-      <div div="AboutMe" className="App-header">
+      <div div="AboutMe" className="App-body">
         <a id="App-ContactMe">
           <ContactMe />
         </a>
