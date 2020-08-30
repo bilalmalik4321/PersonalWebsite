@@ -14,6 +14,7 @@ const Project = () =>(
             className="Project-Header"
             href="http://winhacks.ca"
             target="_blank"
+            rel="noopener"
     >
             <h3>Winhacks</h3>
             <video id="background-video" width="420" height="340" loop autoPlay muted>
@@ -36,8 +37,9 @@ const Project = () =>(
           <br />
           <a
             className="Project-Header"
-            href="https://staysafekeep.space/"
+            href=""
             target="_blank"
+            rel="noopener"
     >
             <h3>StaySafeKeepSpace</h3>
             <video id="background-video" width="420" height="340" loop autoPlay muted>
@@ -60,6 +62,7 @@ const Project = () =>(
             className="Project-Header"
             href="http://malik11y.myweb.cs.uwindsor.ca/60334/project2/index.php"
             target="_blank"
+            rel="noopener"
           >
             <h3>Mediplus</h3>
             <video id="background-video" width="420" height="340" loop autoPlay muted>
@@ -79,6 +82,7 @@ const Project = () =>(
             className="Project-Header"
             href="http://malik11y.myweb.cs.uwindsor.ca/60334/project/main.html"
             target="_blank"
+            rel="noopener"
           >
             <h3>Malik Hospital</h3>
             <video id="background-video" width="420" height="340" loop autoPlay muted>
