@@ -34,17 +34,19 @@ const AboutMe = () => (
     <a
       href="https://drive.google.com/file/d/193YKq-1auuvUkt9iFg2Eq4Ks8dcUrS9C/view?usp=sharing"
       target="_blank"
+      rel="noopener noreferrer"
     >
-    <img className="links" src={resume} height="50" width="50" />
+    <img className="links" alt="resume" src={resume} height="50" width="50" />
     </a>
     <a
       href="https://www.linkedin.com/in/bilal-malik-15754b185/"
       target="_blank"
+      rel="noopener noreferrer"
     >
-      <img className="links" src={linkedin} height="50" width="50" />
+      <img className="links" alt="linkedin" src={linkedin} height="50" width="50" />
     </a>
-    <a href="https://github.com/bilalmalik4321" target="_blank">
-      <img className="links" src={github} height="50" width="50" />
+    <a href="https://github.com/bilalmalik4321" target="_blank" rel="noopener noreferrer">
+      <img className="links" alt="github" src={github} height="50" width="50" />
     </a>
   </div>
 );

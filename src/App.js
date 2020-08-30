@@ -3,10 +3,10 @@ import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 import face from "./images/new.jpg";
-import winhacks from "./winhacks.mp4";
-import mediplus from "./mediplus.mp4";
-import malikhospital from "./MalikHospital.mp4";
-import {WorkExperience} from "./workExperience";
+// import winhacks from "./winhacks.mp4";
+// import mediplus from "./mediplus.mp4";
+// import malikhospital from "./MalikHospital.mp4";
+// import {WorkExperience} from "./workExperience";
 import "./App.css";
 
 class App extends Component{
@@ -16,7 +16,7 @@ class App extends Component{
       <header className="App-header">
         <h2>Bilal Malik</h2>
         <img src={face} className="App-logo" alt="logo" />
-        <p>Computer Science Student @ UWindsor | <a href="https://www.wsib-lab.ca/" className="url" target="_blank">Full Stack Developer @ WSIB Innovation Lab</a></p>
+        <p>Computer Science Student @ UWindsor | <a href="https://www.wsib-lab.ca/" rel="noopener noreferrer" className="url" target="_blank">Full Stack Developer @ WSIB Innovation Lab</a></p>
         <div className="buttonHolder">
           <a id="GFG" href="#App-AboutMe">
             <button className="Button">
